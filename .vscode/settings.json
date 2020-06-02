@@ -1,0 +1,8 @@
+{
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Fira Code",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 100,
+    "editor.mouseWheelZoom": true
+}
