@@ -121,11 +121,13 @@ body {
         margin-top: 17rem;
         max-width: 62rem;
     }
+
     .header-slogan {
         font-size: 6.4rem;
         line-height: 7.0rem;
         letter-spacing: 0.2rem;
     }
+
     .slogan__2 {
         margin-top: 1rem;
         margin-left: 10rem;
@@ -199,23 +201,30 @@ body {
         justify-content: center;
         margin-top: 25rem;
     }
+
     .button__download__box {
         width: 31rem;
         height: 7.6rem;
     }
+
     .left-download__box {
         justify-content: center;
         flex-basis: 36%;
     }
+
     .svg-logo__box {
         width: 5rem;
     }
+
     .right-download__box {
         margin-left: 0;
     }
-    .top-link__text, .bottom-link__text {
+
+    .top-link__text,
+    .bottom-link__text {
         font-size: 1.4rem;
     }
+
     .button__download__box {
         margin: 0 2rem;
     }
@@ -320,45 +329,54 @@ body {
         width: 75.5rem;
         image-orientation: flip;
     }
+
     .sport-img {
         position: absolute;
         margin: 0;
         top: -13rem;
         left: -15rem;
     }
+
     .bottom-sport__box .sport-img {
         left: auto;
         top: -17rem;
         right: -0.5rem;
     }
+
     .h3__title {
         font-size: 8rem;
         line-height: 10rem;
         padding-left: 30rem;
         margin: 6rem 0rem;
     }
+
     .h4__title {
         font-size: 3.2rem;
         line-height: 5.2rem;
         letter-spacing: 0.25rem;
         padding-top: 1rem;
     }
+
     .bottom-sport__box .h3__title {
         padding-left: 2rem;
         padding-right: 24rem;
     }
+
     .agitation-content__box {
         margin: 0;
         padding: 1rem 0 2rem 28rem;
     }
+
     .bottom-sport__box .agitation-content__box {
         padding: 1rem 30rem 2rem 1rem;
     }
+
     .agitation-content__txt {
         font-size: 1.6rem;
         line-height: 2.8rem;
         letter-spacing: 0.05rem;
     }
+
     .top-num__box {
         font-size: 1.8rem;
         line-height: 2.4rem;
@@ -366,6 +384,7 @@ body {
         margin-right: 1rem;
         padding-bottom: 1.7rem;
     }
+
     .top-num__box::after {
         content: "";
         display: block;
@@ -445,12 +464,14 @@ body {
     .lifestyle-img {
         max-height: 58rem;
     }
+
     .ls-num__box {
         height: 12rem;
         width: 12rem;
         margin-left: 3rem;
         margin-top: -9rem;
     }
+
     .ls-num {
         font-size: 2.4rem;
         line-height: 3rem;
@@ -458,6 +479,7 @@ body {
         padding-left: 4.55rem;
         padding-top: 3.8rem;
     }
+
     .ls-num::after {
         width: 2.6rem;
         height: 0.5rem;
