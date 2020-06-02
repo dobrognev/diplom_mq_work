@@ -224,14 +224,38 @@ body {
   background-color: #5e42b0;
   color: #ffffff;
 }
-.lifestyle-title__box {
-  background-image: url("../img/be-active_640.jpg");
-  background-position: center center;
-  background-size: cover;
-  height: 50rem;
+.lifestyle-img {
+  display: block;
+  position: relative;
+  width: 100vw;
 }
 .lifestyle-content__box {
   padding: 0 2rem;
+}
+.ls-num__box {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.5;
+  font-weight: bold;
+  margin-bottom: 1.3rem;
+  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-top: -5rem;
+  color: #fafafa;
+  background-color: #5e42b0;
+  height: 7rem;
+  width: 7rem;
+}
+.ls-num__box::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #9b8ec1;
+  width: 1.6rem;
+  height: 0.4rem;
+  border-radius: 2rem;
 }
 
 /*--Footer--*/
