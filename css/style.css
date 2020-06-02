@@ -317,7 +317,8 @@ body {
 
 @media (min-width: 641px) and (max-width: 960px) {
     .top-sport_-box {
-        max-width: 75.5rem;
+        width: 75.5rem;
+        image-orientation: flip;
     }
     .sport-img {
         position: absolute;
@@ -391,7 +392,7 @@ body {
 }
 
 .agitation__box:nth-of-type(3n+1) .top-num__box:after {
-    background-color: #ffffff;
+    background-color: #efefef;
 }
 
 .top-sport-box .agitation__box:nth-child(3n+2) .top-num__box {
@@ -433,11 +434,36 @@ body {
     content: "";
     display: block;
     position: absolute;
-    background-color: #c1c1c1;
+    background-color: #8f7bc8;
     width: 1.6rem;
     height: 0.4rem;
     border-radius: 2rem;
     margin-top: 0.20rem;
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+    .lifestyle-img {
+        max-height: 58rem;
+    }
+    .ls-num__box {
+        height: 12rem;
+        width: 12rem;
+        margin-left: 3rem;
+        margin-top: -9rem;
+    }
+    .ls-num {
+        font-size: 2.4rem;
+        line-height: 3rem;
+        letter-spacing: 0.1rem;
+        padding-left: 4.55rem;
+        padding-top: 3.8rem;
+    }
+    .ls-num::after {
+        width: 2.6rem;
+        height: 0.5rem;
+        border-radius: 3rem;
+        margin-top: 0.15rem;
+    }
 }
 
 .lifestyle-content__box {
