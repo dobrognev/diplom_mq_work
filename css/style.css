@@ -225,6 +225,9 @@ body {
   background-color: #5e42b0;
   color: #ffffff;
 }
+.top-num__box:nth-child(3) {
+  color: red;
+}
 .lifestyle-img {
   position: relative;
   width: 100%;
