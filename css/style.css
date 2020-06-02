@@ -187,6 +187,7 @@ body {
   font-weight: bold;
   align-self: flex-end;
   margin-bottom: 1.25rem;
+  margin-right: 1rem;
 }
 .top-num__box::after {
   content: "";
@@ -206,7 +207,6 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   margin: 0;
-  margin-left: 1rem;
   color: #c1c1c1;
 }
 .agitation-content__txt {
@@ -223,6 +223,15 @@ body {
 .agitation__box:nth-child(5) {
   background-color: #5e42b0;
   color: #ffffff;
+}
+.lifestyle-title__box {
+  background-image: url("../img/be-active_640.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 50rem;
+}
+.lifestyle-content__box {
+  padding: 0 2rem;
 }
 
 /*--Footer--*/
