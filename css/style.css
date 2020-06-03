@@ -29,7 +29,6 @@ html {
 
 body {
     margin: 0;
-    padding: 0;
 }
 
 .box_correct__mgt-05 {
@@ -231,7 +230,7 @@ body {
     flex-direction: column;
     background-color: #fafafa;
     justify-content: center;
-    padding: 0 2rem;
+    padding: 0 0 0 2rem;
 }
 
 .agitation-content__box {
@@ -310,7 +309,7 @@ body {
     .bottom-sport__box .sport-img {
         left: auto;
         top: -17rem;
-        right: -0.5rem;
+        right: 0;
     }
 
     .h3__title {
@@ -318,12 +317,13 @@ body {
         line-height: 10rem;
         padding-left: 30rem;
         margin: 6rem 0rem;
+        padding-right: 2rem;
     }
 
     .h4__title {
         font-size: 3.2rem;
         line-height: 5.2rem;
-        letter-spacing: 0.25rem;
+        letter-spacing: 0.20rem;
         padding-top: 1rem;
     }
 
@@ -334,7 +334,7 @@ body {
 
     .agitation-content__box {
         margin: 0;
-        padding: 1rem 0 2rem 28rem;
+        padding: 1rem 2rem 2rem 28rem;
     }
 
     .bottom-sport__box .agitation-content__box {
@@ -432,7 +432,7 @@ body {
 }
 
 .lifestyle-content__box {
-    padding: 0 2rem;
+    padding: 0 0 0 2rem;
     height: 15rem;
     margin-top: 2rem;
 }
@@ -450,7 +450,7 @@ body {
 
 @media (min-width: 641px) and (max-width: 960px) {
     .lifestyle-img {
-        min-height: 58rem;
+        max-height: 58rem;
         margin-left: auto;
         margin-right: auto;
     }
@@ -496,7 +496,7 @@ body {
         letter-spacing: 0.1rem;
         padding-left: 0.5rem;
         padding-top: 1rem;
-        padding-right: 5rem;
+        padding-right: 4rem;
     }
 }
 
@@ -579,7 +579,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 7rem auto 6rem;
-    width: 27rem;
     z-index: 2;
 }
 
@@ -589,7 +588,6 @@ body {
     fill: #ffffff;
     width: 12rem;
     margin: 0 auto;
-    padding-top: 3rem;
     padding-left: 1rem;
     z-index: 2;
 }
