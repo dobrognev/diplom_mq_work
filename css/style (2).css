@@ -236,7 +236,8 @@ body {
 .agitation-content__box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-end;
     margin-top: 6rem;
     margin-bottom: 4rem;
 }
@@ -378,7 +379,7 @@ body {
     .sport-img {
         position: absolute;
         margin: 0;
-        top: -10rem;
+        top: -13rem;
         left: -15rem;
     }
 
@@ -392,17 +393,18 @@ body {
         font-size: 8rem;
         line-height: 10rem;
         padding-left: 30rem;
-        margin: 6rem 0rem 5rem;
+        margin: 6rem 0rem;
     }
 
     .h4__title {
         font-size: 3.2rem;
         line-height: 5.2rem;
-        letter-spacing: 0.15rem;
+        letter-spacing: 0.20rem;
     }
 
     .bottom-sport__box .h1__title {
-        padding-left: 3.5rem;
+        padding-left: 2rem;
+        padding-right: 24rem;
     }
 
     .agitation-content__box {
@@ -487,6 +489,7 @@ body {
     padding-left: 0.5rem;
     padding-top: 1rem;
     padding-right: 4rem;
+}
 }
 
 /*--Footer--*/
