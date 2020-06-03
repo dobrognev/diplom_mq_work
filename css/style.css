@@ -315,6 +315,10 @@ body {
     color: #c1c1c1;
 }
 
+.lifestyle-content__box .h4__title {
+    color: #e7e7e7;
+}
+
 .agitation-content__txt {
     display: block;
     font-family: "Open Sans";
@@ -424,7 +428,7 @@ body {
 
 .lifestyle-img {
     position: relative;
-    width: 100%;
+    height: 35rem;
 }
 
 .ls-num__box {
@@ -460,9 +464,28 @@ body {
     margin-top: 0.20rem;
 }
 
+.lifestyle-content__box {
+    padding: 0 2rem;
+    height: 15rem;
+    margin-top: 2rem;
+}
+
+.lifestyle-content__txt {
+    position: relative;
+    display: block;
+    font-family: "Open Sans";
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.05rem;
+    font-weight: normal;
+    margin-top: 1.5rem;
+}
+
 @media (min-width: 641px) and (max-width: 960px) {
     .lifestyle-img {
-        max-height: 58rem;
+        min-height: 58rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .ls-num__box {
@@ -470,6 +493,7 @@ body {
         width: 12rem;
         margin-left: 3rem;
         margin-top: -9rem;
+        margin-bottom: 2.5rem;
     }
 
     .ls-num {
@@ -486,23 +510,27 @@ body {
         border-radius: 3rem;
         margin-top: 0.15rem;
     }
-}
 
-.lifestyle-content__box {
-    padding: 0 2rem;
-    height: 15rem;
-    margin-top: 2rem;
-}
+    .lifestyle-content__box {
+        margin-top: 1rem;
+        margin-bottom: 15rem;
+    }
 
-.lifestyle-content__txt {
-    position: relative;
-    display: block;
-    font-family: "Open Sans";
-    font-size: 1.5rem;
-    line-height: 1.8rem;
-    letter-spacing: 0.05rem;
-    font-weight: normal;
-    margin-top: 1.5rem;
+    .lifestyle-content__box .h4__title {
+        font-size: 8rem;
+        line-height: 9rem;
+        letter-spacing: 0.01rem;
+    }
+
+    .lifestyle-content__txt {
+
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+        letter-spacing: 0.1rem;
+        padding-left: 0.5rem;
+        padding-top: 1rem;
+        padding-right: 5rem;
+    }
 }
 
 /*--Footer--*/
