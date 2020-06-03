@@ -2,13 +2,17 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: url(../fonts/OpenSans-Bold.ttf) format(truetype), url(../fonts/OpenSans-Bold.woff) format(woff), url(../fonts/OpenSans-Bold.woff2) format(woff2);
+    src: url(../fonts/OpenSans-Bold.ttf) format("truetype"),
+        url(../fonts/OpenSans-Bold.woff) format("woff"),
+        url(../fonts/OpenSans-Bold.woff2) format("woff2");
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: url(../fonts/OpenSans-Regular.ttf) format(truetype), url(../fonts/OpenSans-Regular.woff) format(woff), url(../fonts/OpenSans-Regular.woff2) format(woff2);
+    src: url(../fonts/OpenSans-Regular.ttf) format("truetype"),
+        url(../fonts/OpenSans-Regular.woff) format("woff"),
+        url(../fonts/OpenSans-Regular.woff2) format("woff2");
     font-weight: normal;
 }
 
@@ -181,7 +185,7 @@ body {
 .top-link__text {
     font-size: 0.8rem;
     line-height: normal;
-    letter-spacing: 0.5;
+    letter-spacing: 0.1rem;
     text-transform: uppercase;
     font-family: "Open Sans";
     font-weight: normal;
@@ -189,7 +193,7 @@ body {
 
 .bottom-link__text {
     font-size: 0.8rem;
-    letter-spacing: 0.5;
+    letter-spacing: 0.12rem;
     text-transform: uppercase;
     font-family: "Open Sans";
     font-weight: bold;
@@ -202,7 +206,7 @@ body {
     margin: 0 auto;
 }
 
-.h1__title {
+.h2__title {
     position: relative;
     display: block;
     margin: 2rem 2rem 1.2rem;
@@ -250,7 +254,7 @@ body {
     font-family: "Open Sans";
     font-size: 1.4rem;
     line-height: 1.6rem;
-    letter-spacing: 0.5;
+    letter-spacing: 0.1rem;
     font-weight: bold;
     align-self: flex-end;
     margin-bottom: 1.25rem;
@@ -267,7 +271,7 @@ body {
     border-radius: 2rem;
 }
 
-.h4__title {
+.h3__title {
     font-family: "Open Sans";
     display: block;
     font-size: 2.3rem;
@@ -279,7 +283,7 @@ body {
     color: #c1c1c1;
 }
 
-.lifestyle-content__box .h4__title {
+.lifestyle-content__box .h3__title {
     color: #e7e7e7;
 }
 
@@ -339,7 +343,7 @@ body {
     font-family: "Open Sans";
     font-size: 1.4rem;
     line-height: 1.6rem;
-    letter-spacing: 0.5;
+    letter-spacing: 0.05rem;
     font-weight: bold;
     color: #fafafa;
     padding-left: 2.7rem;
@@ -374,34 +378,44 @@ body {
     margin-top: 1.5rem;
 }
 
-@media (min-width: 641px) and (max-width: 960px) {
-    .sport-img {
-        position: absolute;
-        margin: 0;
-        top: -10rem;
-        left: -15rem;
+@media (min-width: 641px) and (max-width: 750px) {
+    .bottom-sport__box .sport-img {
+        left: auto;
+        top: -21.5rem;
+        right: 0;
     }
+}
 
+@media (min-width: 751px) and (max-width: 960px) {
     .bottom-sport__box .sport-img {
         left: auto;
         top: -17rem;
         right: 0;
     }
+}
 
-    .h1__title {
-        font-size: 8rem;
+@media (min-width: 641px) and (max-width: 960px) {
+    .sport-img {
+        position: absolute;
+        margin: 0;
+        top: -10rem;
+        left: -17rem;
+    }
+
+    .h2__title {
+        font-size: calc(6.5rem + 1.25vw);
         line-height: 10rem;
         padding-left: 30rem;
         margin: 6rem 0rem 5rem;
     }
 
-    .h4__title {
+    .h3__title {
         font-size: 3.2rem;
         line-height: 5.2rem;
         letter-spacing: 0.15rem;
     }
 
-    .bottom-sport__box .h1__title {
+    .bottom-sport__box .h2__title {
         padding-left: 3.5rem;
     }
 
@@ -436,58 +450,60 @@ body {
         width: 1.9rem;
         height: 0.5rem;
         border-radius: 2rem;
+
+    }
+
+    .lifestyle-img {
+        max-height: 58rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ls-num__box {
+        height: 12rem;
+        width: 12rem;
+        margin-left: 3rem;
+        margin-top: -9rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .ls-num {
+        font-size: 2.4rem;
+        line-height: 3rem;
+        letter-spacing: 0.1rem;
+        padding-left: 4.55rem;
+        padding-top: 3.8rem;
+    }
+
+    .ls-num::after {
+        width: 2.6rem;
+        height: 0.5rem;
+        border-radius: 3rem;
+        margin-top: 0.15rem;
+    }
+
+    .lifestyle-content__box {
+        margin-top: 3rem;
+        margin-bottom: 12rem;
+    }
+
+    .lifestyle-content__box .h3__title {
+        font-size: 8rem;
+        line-height: 10rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .lifestyle-content__txt {
+
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+        letter-spacing: 0.1rem;
+        padding-left: 0.5rem;
+        padding-top: 1rem;
+        padding-right: 4rem;
     }
 }
 
-.lifestyle-img {
-    max-height: 58rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.ls-num__box {
-    height: 12rem;
-    width: 12rem;
-    margin-left: 3rem;
-    margin-top: -9rem;
-    margin-bottom: 2.5rem;
-}
-
-.ls-num {
-    font-size: 2.4rem;
-    line-height: 3rem;
-    letter-spacing: 0.1rem;
-    padding-left: 4.55rem;
-    padding-top: 3.8rem;
-}
-
-.ls-num::after {
-    width: 2.6rem;
-    height: 0.5rem;
-    border-radius: 3rem;
-    margin-top: 0.15rem;
-}
-
-.lifestyle-content__box {
-    margin-top: 1rem;
-    margin-bottom: 15rem;
-}
-
-.lifestyle-content__box .h4__title {
-    font-size: 8rem;
-    line-height: 9rem;
-    letter-spacing: 0.01rem;
-}
-
-.lifestyle-content__txt {
-
-    font-size: 2.4rem;
-    line-height: 2.8rem;
-    letter-spacing: 0.1rem;
-    padding-left: 0.5rem;
-    padding-top: 1rem;
-    padding-right: 4rem;
-}
 
 /*--Footer--*/
 
