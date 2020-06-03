@@ -558,7 +558,6 @@ body {
 
 .big-footer__text {
     position: relative;
-    display: block;
     font-size: 3.1rem;
     color: #ffffff;
     text-transform: uppercase;
@@ -569,7 +568,6 @@ body {
 
 .small-footer__text {
     position: relative;
-    display: block;
     font-size: 1.4rem;
     letter-spacing: 0.1rem;
     color: #9b8ec1;
