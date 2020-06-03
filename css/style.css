@@ -46,8 +46,8 @@ body {
     background-image: url(../img/football_767.jpg);
     background-repeat: no-repeat;
     background-color: #090c35;
-    background-position: center center;
-    background-size: 145%;
+    background-position: top center;
+    background-size: cover;
     height: 56rem;
     z-index: 0;
 }
@@ -488,7 +488,7 @@ body {
     }
 
     .lifestyle-content__box .h3__title {
-        font-size: 8rem;
+        font-size: calc(7rem + 1vw);
         line-height: 10rem;
         letter-spacing: 0.1rem;
     }
@@ -514,7 +514,7 @@ body {
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
-    height: 56rem;
+    min-height: 56rem;
     margin: 0;
     margin-top: 2.5rem;
     z-index: 0;
@@ -598,7 +598,7 @@ body {
 
 @media (min-width: 641px) and (max-width: 960px) {
     .footer__box {
-        height: 95rem;
+        min-height: 95rem;
     }
 
     .footer-sml-svg__box {
@@ -614,13 +614,13 @@ body {
     }
 
     .big-footer__text {
-        font-size: 8rem;
+        font-size: calc(6rem + 1vw);
         letter-spacing: 0.20rem;
         padding: 0;
     }
 
     .small-footer__text {
-        font-size: 3.6rem;
+        font-size: calc(3rem + 0.25vw);
         letter-spacing: 0.2rem;
     }
 
