@@ -18,15 +18,6 @@
 
 /*--Общие стили--*/
 
-.href-none {
-    text-decoration: none;
-}
-
-.download__link {
-    color: #ffffff;
-    text-transform: uppercase;
-}
-
 html {
     font-size: 10px;
 }
@@ -35,8 +26,16 @@ body {
     margin: 0;
 }
 
-.box_correct__mgt-05 {
-    margin-top: -0.4rem;
+/* Недоделанные корректировки */
+
+
+.href-none {
+    text-decoration: none;
+}
+
+.download__link {
+    color: #ffffff;
+    text-transform: uppercase;
 }
 
 /*--Header--*/
@@ -55,8 +54,16 @@ body {
 @media (min-width: 641px) and (max-width: 960px) {
 
     .header__box {
-        background-size: cover;
-        height: 95rem;
+        background-image: url(../img/football_1280.jpg);
+        min-height: 96rem;
+    }
+}
+
+@media (min-width: 961px) {
+
+    .header__box {
+        background-image: url(../img/football_1920.jpg);
+        min-height: 96rem;
     }
 }
 
@@ -83,7 +90,7 @@ body {
     z-index: 2;
 }
 
-@media (min-width: 641px) and (max-width: 960px) {
+@media (min-width: 641px) {
     .header-svg__box .svg-logo-text {
         width: 20rem;
         padding-top: 5rem;
@@ -138,6 +145,29 @@ body {
     }
 }
 
+@media (min-width: 961px) {
+    .header-slogan__box {
+        margin-top: 20rem;
+        max-width: 155rem;
+        min-width: 960;
+    }
+
+    .header-slogan {
+        font-size: calc(4rem + 2vw);
+        line-height: 10rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .slogan__1 {
+        padding-left: 2rem;
+    }
+
+    .slogan__2 {
+        margin-top: 0.5rem;
+        margin-left: 20vw;
+    }
+}
+
 .header-button__box {
     position: relative;
     display: flex;
@@ -156,6 +186,11 @@ body {
     border-radius: 5rem;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0rem 2rem 2rem #090c35;
+}
+
+.button-download__box:active {
+    box-shadow: none;
 }
 
 .dowload__box {
@@ -300,7 +335,7 @@ body {
     background-color: #f5f4f9;
 }
 
-.top-sport-box .agitation__box:nth-child(5) {
+.top-sport__box .agitation__box:nth-child(5) {
     background-color: #5e42b0;
     color: #ffffff;
 }
@@ -314,11 +349,11 @@ body {
     background-color: #efefef;
 }
 
-.top-sport-box .agitation__box:nth-child(3n+2) .top-num__box {
+.top-sport__box .agitation__box:nth-child(3n+2) .top-num__box {
     color: black;
 }
 
-.bottom-sport-box .agitation__box:nth-child(5n+5) .top-num__box {
+.bottom-sport__box .agitation__box:nth-child(5n+5) .top-num__box {
     color: #5e42b0;
 }
 
@@ -380,6 +415,7 @@ body {
 
 @media (min-width: 641px) and (max-width: 750px) {
     .bottom-sport__box .sport-img {
+        position: absolute;
         left: auto;
         top: -21.5rem;
         right: 0;
@@ -388,6 +424,7 @@ body {
 
 @media (min-width: 751px) and (max-width: 960px) {
     .bottom-sport__box .sport-img {
+        position: absolute;
         left: auto;
         top: -17rem;
         right: 0;
@@ -395,7 +432,7 @@ body {
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
-    .sport-img {
+    .top-sport__box .sport-img {
         position: absolute;
         margin: 0;
         top: -10rem;
@@ -504,6 +541,122 @@ body {
     }
 }
 
+@media (min-width: 961px) {
+    .top-sport__box .sport-img {
+        position: absolute;
+        margin: 0;
+        top: -15rem;
+        left: 10%;
+    }
+
+    .bottom-sport__box .sport-img {
+        position: absolute;
+        margin: 0;
+        top: -20rem;
+        left: 40vw;
+    }
+
+    .h2__title {
+        font-size: calc(6.5rem + 1.25vw);
+        line-height: 10rem;
+        padding-left: 50vw;
+        margin: 2rem 0rem 5rem;
+    }
+
+    .h3__title {
+        font-size: 3.2rem;
+        line-height: 5.2rem;
+        letter-spacing: 0.15rem;
+    }
+
+    .bottom-sport__box .h2__title {
+        padding-left: 3.5rem;
+    }
+
+    .agitation-content__box {
+        margin: 0;
+        padding: 3rem 2rem 2rem 49vw;
+    }
+
+    .bottom-sport__box .agitation-content__box {
+        padding: 3rem 30rem 3rem 2rem;
+    }
+
+    .agitation-content__txt {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        letter-spacing: 0.05rem;
+    }
+
+    .top-num__box {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        margin: 0;
+        margin-right: 1rem;
+        padding-bottom: 1.7rem;
+    }
+
+    .top-num__box::after {
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #5e42b0;
+        width: 1.9rem;
+        height: 0.5rem;
+        border-radius: 2rem;
+
+    }
+
+    .lifestyle-img {
+        max-height: 58rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ls-num__box {
+        height: 12rem;
+        width: 12rem;
+        margin-left: 3rem;
+        margin-top: -9rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .ls-num {
+        font-size: 2.4rem;
+        line-height: 3rem;
+        letter-spacing: 0.1rem;
+        padding-left: 4.55rem;
+        padding-top: 3.8rem;
+    }
+
+    .ls-num::after {
+        width: 2.6rem;
+        height: 0.5rem;
+        border-radius: 3rem;
+        margin-top: 0.15rem;
+    }
+
+    .lifestyle-content__box {
+        margin-top: 3rem;
+        margin-bottom: 12rem;
+    }
+
+    .lifestyle-content__box .h3__title {
+        font-size: calc(7rem + 1vw);
+        line-height: 10rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .lifestyle-content__txt {
+
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+        letter-spacing: 0.1rem;
+        padding-left: 0.5rem;
+        padding-top: 1rem;
+        padding-right: 4rem;
+    }
+}
 
 /*--Footer--*/
 
@@ -512,11 +665,10 @@ body {
     background-image: url("../img/game_767.jpg");
     background-color: #090c35;
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
     min-height: 56rem;
     margin: 0;
-    margin-top: 2.5rem;
     z-index: 0;
 }
 
@@ -598,7 +750,9 @@ body {
 
 @media (min-width: 641px) and (max-width: 960px) {
     .footer__box {
-        min-height: 95rem;
+        background-image: url("../img/game_1280.jpg");
+        min-height: 96rem;
+        background-size: cover;
     }
 
     .footer-sml-svg__box {
@@ -623,18 +777,72 @@ body {
         font-size: calc(3rem + 0.25vw);
         letter-spacing: 0.2rem;
     }
+}
 
+@media (min-width: 961px) {
+    .footer__box {
+        background-image: url("../img/game_1920.jpg");
+        min-height: 96rem;
+        background-size: cover;
+    }
+
+    .footer-top__box {
+        display: flex;
+        padding-top: 20rem;
+        justify-content: center;
+    }
+
+    .footer-content__box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 0;
+        margin-left: 2rem;
+    }
+
+    .footer-sml-svg__box {
+        padding: 0;
+        margin: 0;
+    }
+
+    .svg-sml-logo {
+        width: 11rem;
+        height: 11.5rem;
+        border-radius: 3rem;
+        padding: 2rem 2rem;
+    }
+
+    .big-footer__text {
+        font-size: calc(7rem + 1vw);
+        line-height: 10rem;
+        letter-spacing: 0.20rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .small-footer__text {
+        font-size: calc(3rem + 0.25vw);
+        letter-spacing: 0.15rem;
+        line-height: 5rem;
+        padding: 0 0 0 0.5rem;
+        margin: 0;
+    }
+}
+
+@media (min-width: 641px) {
     .header-button__box {
         flex-direction: row;
         justify-content: center;
-        margin-top: 25rem;
+        margin-top: 20rem;
     }
 
     .footer-button__box {
         flex-direction: row;
         justify-content: center;
         margin-top: 25rem;
-        margin-bottom: 5rem;
+        margin-bottom: 20rem;
     }
 
     .button-download__box {
@@ -660,10 +868,13 @@ body {
     .bottom-link__text {
         font-size: 1.4rem;
     }
+}
 
+@media (min-width: 641px) {
     .footer-svg__box .svg-logo-text {
         width: 20rem;
         padding-top: 0;
+        padding-bottom: 2rem;
     }
 
 }
