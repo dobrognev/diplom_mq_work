@@ -186,7 +186,7 @@ body {
     border-radius: 5rem;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0rem 2rem 2rem #090c35;
+    box-shadow: 0rem 1rem 1rem #090c35;
 }
 
 .button-download__box:active {
@@ -849,6 +849,7 @@ body {
         height: 7.6rem;
         margin: 0 2rem;
         width: 31rem;
+        box-shadow: 0rem 2rem 2rem #090c35;
     }
 
     .left-download__box {
