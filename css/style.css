@@ -149,7 +149,7 @@ body {
     .header-slogan__box {
         margin-top: 20rem;
         max-width: 155rem;
-        min-width: 960;
+        min-width: 960px;
     }
 
     .header-slogan {
