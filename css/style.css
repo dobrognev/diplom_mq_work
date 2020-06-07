@@ -615,7 +615,7 @@ body {
     }
 
     .sport-img__box {
-        position: relative;
+        position: absolute;
         width: 50%;
         margin: 0;
     }
