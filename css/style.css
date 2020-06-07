@@ -24,7 +24,6 @@ html {
 
 body {
     margin: 0;
-    min-width: 32rem;
 }
 
 /* TODOO Недоделанные корректировки ! */
@@ -164,7 +163,6 @@ body {
         padding-right: 5rem;
         margin-top: 20rem;
         max-width: 150rem;
-        min-width: 960px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -615,6 +613,7 @@ body {
     }
 
     .sport-img__box {
+        position: relative;
         width: 50%;
         margin: 0;
     }
@@ -631,8 +630,8 @@ body {
 
     .bottom-sport__box {
         max-width: 100%;
-        position: relative;
         overflow: hidden;
+
     }
 
     .bottom-sport__box .sport-img {
@@ -640,7 +639,6 @@ body {
         margin: 0;
         top: -22rem;
         left: 70%;
-
     }
 
     .agitation-content__box {
@@ -953,6 +951,7 @@ body {
         flex-direction: row;
         justify-content: center;
         margin-top: 28rem;
+        padding-bottom: 2rem;
     }
 
     .footer-button__box {
