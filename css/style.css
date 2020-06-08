@@ -50,9 +50,8 @@ body {
     background-position: top center;
     background-size: cover;
     min-height: 56rem;
-    max-width: 100%;
-    z-index: 0;
     padding-top: 3rem;
+    z-index: 0;
 }
 
 .header-svg__box {
@@ -777,7 +776,6 @@ body {
     background-position: center center;
     background-size: cover;
     min-height: 56rem;
-    max-width: 100%;
     margin: 0;
     z-index: 0;
 }
