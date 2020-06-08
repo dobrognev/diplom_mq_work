@@ -26,9 +26,6 @@ body {
     margin: 0;
 }
 
-/* TODOO Недоделанные корректировки ! */
-
-
 .href-none {
     text-decoration: none;
 }
@@ -37,6 +34,8 @@ body {
     color: #ffffff;
     text-transform: uppercase;
 }
+
+/* TODOO Общие стили ! */
 
 /*--Header--*/
 
@@ -609,7 +608,7 @@ body {
     .bottom-sport__box .h1__title {
         font-size: calc(6.5rem + 1.25vw);
         line-height: 10rem;
-        padding-left: 10rem;
+        padding-left: 10%;
     }
 
     .sport-img__box {
@@ -647,7 +646,7 @@ body {
     }
 
     .agitation__box {
-        padding: 4rem 10rem;
+        padding: 4rem 10%;
     }
 
     .agitation-content__txt {
