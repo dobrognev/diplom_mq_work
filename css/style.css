@@ -27,6 +27,11 @@ body {
     min-width: 32rem;
 }
 
+header,
+main,
+footer {
+    max-width: 100%;
+}
 
 
 .href-none {
