@@ -24,7 +24,10 @@ html {
 
 body {
     margin: 0;
+    min-width: 32rem;
 }
+
+
 
 .href-none {
     text-decoration: none;
@@ -47,7 +50,9 @@ body {
     background-position: top center;
     background-size: cover;
     min-height: 56rem;
+    max-width: 100%;
     z-index: 0;
+    padding-top: 3rem;
 }
 
 .header-svg__box {
@@ -88,8 +93,7 @@ body {
     bottom: 0;
     left: 0;
     opacity: 0.9;
-    z-index: 1;
-    padding-top: 3rem;
+    z-index: 1
 }
 
 .header-svg__box .svg-logo-text {
@@ -111,8 +115,11 @@ body {
     position: relative;
     display: block;
     margin-top: 13.5rem;
-    padding: 0 2rem;
+    padding: 0;
+    padding-left: 5%;
+    padding-right: 5%;
     max-width: 32rem;
+    box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
 }
@@ -216,7 +223,7 @@ body {
 .left-download__box {
     display: flex;
     justify-content: flex-end;
-    flex-basis: 39%;
+    flex-basis: 38%;
 }
 
 .svg-logo__box {
@@ -256,7 +263,7 @@ body {
 }
 
 .sport__section {
-    width: 100%;
+    max-width: 100%;
 }
 
 .top-sport__box,
@@ -269,7 +276,7 @@ body {
 .h1__title {
     position: relative;
     display: block;
-    margin: 0 2rem 1.2rem;
+    margin: 0 auto 1.2rem 5%;
     font-family: "Open Sans";
     font-size: 5rem;
     line-height: 6rem;
@@ -282,6 +289,7 @@ body {
 .sport-img__box {
     position: relative;
     margin-bottom: -4rem;
+    max-width: 100%;
 }
 
 .sport-img {
@@ -293,7 +301,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #fafafa;
-    padding: 5rem 2rem 5rem 2rem;
+    padding: 5rem 5%;
 }
 
 .agitation-content__box {
@@ -321,7 +329,6 @@ body {
 .top-num__box::after {
     content: "";
     display: block;
-    position: absolute;
     background-color: #5e42b0;
     width: 1.6rem;
     height: 0.4rem;
@@ -381,10 +388,8 @@ body {
 
 .lifestyle-img {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .ls-num__box {
@@ -532,7 +537,6 @@ body {
     .top-num__box::after {
         content: "";
         display: block;
-        position: absolute;
         background-color: #5e42b0;
         width: 2.2rem;
         height: 0.5rem;
@@ -669,13 +673,12 @@ body {
     .top-num__box {
         font-size: 1.8rem;
         line-height: 2.4rem;
-        padding-bottom: 0.7rem;
+
     }
 
     .top-num__box::after {
         content: "";
         display: block;
-        position: absolute;
         background-color: #5e42b0;
         width: 2.2rem;
         height: 0.5rem;
@@ -774,6 +777,7 @@ body {
     background-position: center center;
     background-size: cover;
     min-height: 56rem;
+    max-width: 100%;
     margin: 0;
     z-index: 0;
 }
