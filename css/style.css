@@ -54,20 +54,19 @@ footer {
     background-color: #090c35;
     background-position: top center;
     background-size: cover;
-    min-height: 56rem;
-    padding-top: 3rem;
+    min-height: 100vh;
     z-index: 0;
 }
 
 .header-svg__box {
-    padding-top: 3rem;
+    padding-top: 5vh;
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
 
     .header__box {
         background-image: url(../img/football_1280.jpg);
-        min-height: 96rem;
+        min-height: 100vh;
 
     }
 
@@ -105,7 +104,7 @@ footer {
     display: block;
     fill: #ffffff;
     width: 12rem;
-    margin: 0 auto;
+    margin: auto;
     z-index: 2;
 }
 
@@ -118,7 +117,7 @@ footer {
 .header-slogan__box {
     position: relative;
     display: block;
-    margin-top: 13.5rem;
+    margin-top: 30%;
     padding: 0;
     padding-left: 5%;
     padding-right: 5%;
@@ -198,7 +197,7 @@ footer {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 7rem;
+    margin-top: 25%;
     z-index: 2;
 }
 
@@ -781,7 +780,7 @@ footer {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    min-height: 56rem;
+    height: 100vh;
     margin: 0;
     z-index: 0;
 }
@@ -799,7 +798,7 @@ footer {
 }
 
 .footer-top__box {
-    padding-top: 10rem;
+    padding-top: 10vh;
 }
 
 .footer-sml-svg__box {
@@ -853,7 +852,7 @@ footer {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 7rem auto 6rem;
+    margin: 12vh auto;
     z-index: 2;
 }
 
@@ -862,7 +861,8 @@ footer {
     display: block;
     fill: #ffffff;
     width: 12rem;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 2;
 }
 
@@ -870,16 +870,12 @@ footer {
 @media (min-width: 641px) and (max-width: 960px) {
     .footer__box {
         background-image: url("../img/game_1280.jpg");
-        min-height: 96rem;
+        height: 100vh;
         background-size: cover;
     }
 
     .footer-top__box {
-        padding-top: 12rem;
-    }
-
-    .footer-sml-svg__box {
-        margin-bottom: 8rem;
+        padding-top: 10vh;
     }
 
     .svg-sml-logo {
@@ -898,6 +894,10 @@ footer {
     .small-footer__text {
         font-size: calc(3rem + 0.25vw);
         letter-spacing: 0.2rem;
+    }
+
+    .footer-button__box {
+        margin: 15vh auto 5vh;
     }
 }
 
@@ -998,7 +998,7 @@ footer {
 @media (min-width: 641px) {
     .footer-svg__box .svg-logo-text {
         width: 20rem;
-        padding-bottom: 2rem;
+
     }
 
 }
