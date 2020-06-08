@@ -904,7 +904,7 @@ footer {
 @media (min-width: 961px) {
     .footer__box {
         background-image: url("../img/game_1920.jpg");
-        min-height: 96rem;
+        height: 96rem;
         background-size: cover;
     }
 
