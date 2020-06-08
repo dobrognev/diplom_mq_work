@@ -579,13 +579,13 @@ footer {
     }
 
     .lifestyle-content__box {
-        padding: 3rem;
-        margin-top: 4rem;
+        padding: 5vh;
+        margin-top: 5vh;
         margin-bottom: 10rem;
     }
 
     .lifestyle-content__box .h3__title {
-        font-size: calc(7rem + 1vw);
+        font-size: calc(6rem + 1.25vw);
         line-height: 10rem;
         letter-spacing: 0.1rem;
     }
@@ -734,7 +734,7 @@ footer {
         width: 12rem;
         margin-left: -6rem;
         left: 50%;
-        top: 40%;
+        top: 38%;
         flex-basis: 0;
     }
 
@@ -755,7 +755,7 @@ footer {
 
 
     .lifestyle-content__box .h3__title {
-        font-size: calc(4.5rem + 2vw);
+        font-size: calc(5rem + 1.25vw);
         line-height: calc(5rem + 2vw);
         letter-spacing: 0.1rem;
         margin-bottom: 0;
