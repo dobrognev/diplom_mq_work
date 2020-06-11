@@ -129,6 +129,7 @@ footer {
 
 .header-slogan {
     position: relative;
+    display: block;
     font-size: 2.8rem;
     line-height: 3.2rem;
     letter-spacing: 0.1rem;
