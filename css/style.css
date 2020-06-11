@@ -277,7 +277,7 @@ footer {
     max-width: 100%;
 }
 
-.h1__title {
+.h2__title {
     position: relative;
     display: block;
     margin: 0 auto 1.2rem 5%;
@@ -500,7 +500,7 @@ footer {
         left: -17rem;
     }
 
-    .h1__title {
+    .h2__title {
         font-size: calc(6.5rem + 1.25vw);
         line-height: 10rem;
         padding-left: 40%;
@@ -513,7 +513,7 @@ footer {
         letter-spacing: 0.1rem;
     }
 
-    .bottom-sport__box .h1__title {
+    .bottom-sport__box .h2__title {
         padding-left: 3rem;
     }
 
@@ -599,7 +599,7 @@ footer {
 
 @media (min-width: 961px) {
 
-    .h1__title {
+    .h2__title {
         font-size: calc(6.5rem + 1.25vw);
         line-height: 10rem;
         margin: 0 0 5rem;
@@ -613,7 +613,7 @@ footer {
         letter-spacing: 0.15rem;
     }
 
-    .bottom-sport__box .h1__title {
+    .bottom-sport__box .h2__title {
         font-size: calc(6.5rem + 1.25vw);
         line-height: 10rem;
         padding-left: 10%;
