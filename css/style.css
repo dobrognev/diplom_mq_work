@@ -416,8 +416,8 @@ footer {
     letter-spacing: 0.1rem;
     font-weight: bold;
     color: #fafafa;
-    top: 2.3rem;
-    left: 2.6rem;
+    left: 38%;
+    top: 34%;
 }
 
 .ls-num::after {
@@ -562,13 +562,13 @@ footer {
 
     .ls-num {
         font-size: 2.4rem;
-        top: 4rem;
-        left: 4.5rem;
+        left: 37%;
+        top: 32%;
 
     }
 
     .ls-num::after {
-        width: 2.6rem;
+        width: 3rem;
         height: 0.5rem;
         border-radius: 3rem;
         margin-top: 0.15rem;
@@ -713,18 +713,18 @@ footer {
     }
 
     .ls-num__box {
-        height: 15rem;
-        width: 15rem;
+        height: 14rem;
+        width: 14rem;
         left: 50%;
-        top: 39%;
-        margin-left: -7.5rem;
+        top: 37%;
+        margin-left: -7rem;
     }
 
     .ls-num {
         font-size: 2.4rem;
         letter-spacing: 0.1rem;
-        left: 40%;
-        top: 37%;
+        left: 39%;
+        top: 38%;
     }
 
     .ls-num::after {
