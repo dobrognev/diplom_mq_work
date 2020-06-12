@@ -111,34 +111,32 @@ footer {
     position: relative;
     display: block;
     margin-top: 30%;
-    padding: 0;
     padding-left: 5%;
     padding-right: 5%;
     max-width: 34rem;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
+    z-index: 2;
 }
 
 .slogan {
-    position: relative;
+    padding: 0;
+    margin: 0;
     display: block;
     font-size: 2.8rem;
-    line-height: 3.2rem;
+    line-height: 1.2;
     letter-spacing: 0.1rem;
     color: #ffffff;
     text-transform: uppercase;
     font-family: "Open Sans";
     font-weight: bold;
-    z-index: 2;
 }
 
 .slogan-bottom {
-    position: relative;
     margin-left: 5rem;
     margin-top: 2rem;
     font-size: 2.8rem;
-    line-height: 3.2rem;
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
@@ -150,8 +148,6 @@ footer {
 
     .slogan {
         font-size: 6.4rem;
-        line-height: 7.0rem;
-        letter-spacing: 0.2rem;
     }
 
     .slogan-bottom {
@@ -173,8 +169,6 @@ footer {
 
     .slogan {
         font-size: calc(4rem + 2vw);
-        line-height: 8rem;
-        letter-spacing: 0.2rem;
     }
 
     .slogan-top {
@@ -200,12 +194,17 @@ footer {
     display: block;
     height: 3.5rem;
     width: 28rem;
-    margin-bottom: 1.5rem;
     background-color: #5e42b0;
     border-radius: 5rem;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0rem 1rem 1rem #090c35;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+    .button-download__box:nth-child(n + 2) {
+        margin-top: 1.5rem;
+    }
 }
 
 .button-download__box:active {
@@ -238,7 +237,6 @@ footer {
 
 .top-link__text {
     font-size: 0.8rem;
-    line-height: normal;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     font-family: "Open Sans";
@@ -277,7 +275,6 @@ footer {
     margin: 0 auto 1.2rem 5%;
     font-family: "Open Sans";
     font-size: 5rem;
-    line-height: 6rem;
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
@@ -318,7 +315,7 @@ footer {
     position: relative;
     font-family: "Open Sans";
     font-size: 1.4rem;
-    line-height: 1.8rem;
+    line-height: 1.2;
     letter-spacing: 0.1rem;
     font-weight: bold;
     margin-right: 1rem;
@@ -334,28 +331,27 @@ footer {
 }
 
 .h3__title {
-    font-family: "Open Sans";
-    display: block;
-    font-size: 2.3rem;
-    line-height: 3rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
     margin: 0;
     padding: 0;
+    font-family: "Open Sans";
+    position: relative;
+    display: block;
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
     color: #c1c1c1;
 }
 
-
 .agitation-content__txt {
+    position: relative;
     display: block;
-    margin: 0;
     font-family: "Open Sans";
     font-size: 1.5rem;
-    line-height: 1.8rem;
-    letter-spacing: 0.05rem;
+    line-height: 1.5;
+    letter-spacing: 0.15rem;
     font-weight: normal;
-    padding: 2rem 0;
+    margin: 2rem 0 0;
 }
 
 .agitation__box:nth-child(4) {
@@ -384,19 +380,32 @@ footer {
     color: #5e42b0;
 }
 
+.lifestyle__box {
+    position: relative;
+}
+
+.lifestyle-title__box {
+    position: relative;
+}
+
+.picture__box {
+    position: relative;
+}
+
 .lifestyle-img {
     position: relative;
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
 .ls-num__box {
     position: absolute;
+    box-sizing: border-box;
     background-color: #5e42b0;
     height: 7rem;
     width: 7rem;
-    margin-left: 2rem;
     margin-top: -5rem;
+    margin-left: 2rem;
 }
 
 .ls-num {
@@ -404,12 +413,11 @@ footer {
     position: absolute;
     font-family: "Open Sans";
     font-size: 1.4rem;
-    line-height: 1.6rem;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.1rem;
     font-weight: bold;
     color: #fafafa;
-    padding-left: 2.7rem;
-    padding-top: 2.2rem;
+    top: 2.3rem;
+    left: 2.6rem;
 }
 
 .ls-num::after {
@@ -424,15 +432,17 @@ footer {
 }
 
 .lifestyle-content__box {
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    margin-top: 2rem;
+    justify-content: center;
+    padding: 4.2rem 2rem;
     margin-bottom: 5rem;
 }
 
 .lifestyle-content__box .h3__title {
     color: #e7e7e7;
+    font-size: 2.8rem;
 }
 
 .lifestyle-content__txt {
@@ -442,10 +452,10 @@ footer {
     display: block;
     font-family: "Open Sans";
     font-size: 1.5rem;
-    line-height: 1.8rem;
-    letter-spacing: 0.05rem;
-    padding-top: 1rem;
+    line-height: 1.2;
+    letter-spacing: 0.15rem;
     font-weight: normal;
+    margin-top: 5%;
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
@@ -496,15 +506,12 @@ footer {
 
     .h2__title {
         font-size: calc(6.5rem + 1.25vw);
-        line-height: 10rem;
         padding-left: 40%;
         margin: 0 0 5rem;
     }
 
     .h3__title {
         font-size: 3.2rem;
-        line-height: 3.8rem;
-        letter-spacing: 0.1rem;
     }
 
     .bottom-sport__box .h2__title {
@@ -523,13 +530,10 @@ footer {
 
     .agitation-content__txt {
         font-size: 1.6rem;
-        line-height: 2.8rem;
-        letter-spacing: 0.05rem;
     }
 
     .top-num__box {
         font-size: 1.8rem;
-        line-height: 2.4rem;
     }
 
     .top-num__box::after {
@@ -554,15 +558,13 @@ footer {
         width: 12rem;
         margin-left: 3rem;
         margin-top: -9rem;
-        margin-bottom: 2.5rem;
     }
 
     .ls-num {
         font-size: 2.4rem;
-        line-height: 3rem;
-        letter-spacing: 0.1rem;
-        padding-left: 4.55rem;
-        padding-top: 3.8rem;
+        top: 4rem;
+        left: 4.5rem;
+
     }
 
     .ls-num::after {
@@ -573,21 +575,17 @@ footer {
     }
 
     .lifestyle-content__box {
-        padding: 5vh;
-        margin-top: 5vh;
-        margin-bottom: 10rem;
+        padding: 4rem 3rem;
+        margin-top: 2vh;
+        margin-bottom: 4rem;
     }
 
     .lifestyle-content__box .h3__title {
         font-size: calc(6rem + 1.25vw);
-        line-height: 10rem;
-        letter-spacing: 0.1rem;
     }
 
     .lifestyle-content__txt {
         font-size: 2.4rem;
-        line-height: 2.8rem;
-        letter-spacing: 0.1rem;
     }
 }
 
@@ -595,7 +593,6 @@ footer {
 
     .h2__title {
         font-size: calc(6.5rem + 1.25vw);
-        line-height: 10rem;
         margin: 0 0 5rem;
         padding-left: 50%;
 
@@ -603,13 +600,10 @@ footer {
 
     .h3__title {
         font-size: 3.2rem;
-        line-height: 5.2rem;
-        letter-spacing: 0.15rem;
     }
 
     .bottom-sport__box .h2__title {
         font-size: calc(6.5rem + 1.25vw);
-        line-height: 10rem;
         padding-left: 10%;
     }
 
@@ -638,7 +632,7 @@ footer {
     .bottom-sport__box .sport-img {
         position: absolute;
         margin: 0;
-        top: -22rem;
+        top: -26rem;
         left: 70%;
     }
 
@@ -648,13 +642,11 @@ footer {
     }
 
     .agitation__box {
-        padding: 4rem 10%;
+        padding: 5rem 10%;
     }
 
     .agitation-content__txt {
         font-size: 1.6rem;
-        line-height: 2.8rem;
-        letter-spacing: 0.05rem;
     }
 
     .agitation-content__box {
@@ -670,7 +662,6 @@ footer {
 
     .top-num__box {
         font-size: 1.8rem;
-        line-height: 2.4rem;
 
     }
 
@@ -686,7 +677,7 @@ footer {
 
     .lifestyle-content__box {
         margin: 0;
-        padding: 10rem 10rem;
+        padding: 5rem 10rem 10rem;
         box-sizing: border-box;
         width: 50%;
         display: flex;
@@ -702,7 +693,6 @@ footer {
     }
 
     .lifestyle-title__box {
-        position: relative;
         display: flex;
         max-width: 100%;
         min-height: 72rem;
@@ -719,25 +709,22 @@ footer {
 
     .lifestyle-img {
         height: 100%;
-        overflow: hidden;
 
     }
 
     .ls-num__box {
-        height: 12rem;
-        width: 12rem;
-        margin-left: -6rem;
+        height: 15rem;
+        width: 15rem;
         left: 50%;
-        top: 38%;
-        flex-basis: 0;
+        top: 39%;
+        margin-left: -7.5rem;
     }
 
     .ls-num {
         font-size: 2.4rem;
-        line-height: 3rem;
         letter-spacing: 0.1rem;
-        padding-left: 4.55rem;
-        padding-top: 3.8rem;
+        left: 40%;
+        top: 37%;
     }
 
     .ls-num::after {
@@ -750,18 +737,10 @@ footer {
 
     .lifestyle-content__box .h3__title {
         font-size: calc(5rem + 1.25vw);
-        line-height: calc(5rem + 2vw);
-        letter-spacing: 0.1rem;
-        margin-bottom: 0;
-        margin-top: 15rem;
-        flex-basis: 40%;
     }
 
     .lifestyle-content__txt {
         font-size: 2.4rem;
-        line-height: 2.8rem;
-        letter-spacing: 0.1rem;
-        padding: 0;
     }
 }
 
@@ -776,6 +755,7 @@ footer {
     background-size: cover;
     height: 100vh;
     margin: 0;
+    padding-top: 10vh;
     z-index: 0;
 }
 
@@ -789,10 +769,6 @@ footer {
     left: 0;
     opacity: 0.9;
     z-index: 1;
-}
-
-.footer-top__box {
-    padding-top: 10vh;
 }
 
 .footer-sml-svg__box {
@@ -819,9 +795,12 @@ footer {
 }
 
 .big-footer__text {
+    padding: 0;
+    margin: 0;
     position: relative;
     display: block;
     font-size: 3.1rem;
+    letter-spacing: 0.20rem;
     color: #ffffff;
     text-transform: uppercase;
     font-family: "Open Sans";
@@ -830,10 +809,12 @@ footer {
 }
 
 .small-footer__text {
+    margin: 0;
+    padding: 0;
     position: relative;
     display: block;
     font-size: 1.4rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
     color: #9b8ec1;
     text-transform: uppercase;
     text-align: center;
@@ -865,7 +846,6 @@ footer {
     .footer__box {
         background-image: url("../img/game_1280.jpg");
         height: 100vh;
-        background-size: cover;
     }
 
     .footer-top__box {
@@ -881,13 +861,10 @@ footer {
 
     .big-footer__text {
         font-size: calc(6rem + 1vw);
-        letter-spacing: 0.20rem;
-        padding: 0;
     }
 
     .small-footer__text {
         font-size: calc(3rem + 0.25vw);
-        letter-spacing: 0.2rem;
     }
 
     .footer-button__box {
@@ -899,7 +876,6 @@ footer {
     .footer__box {
         background-image: url("../img/game_1920.jpg");
         height: 96rem;
-        background-size: cover;
     }
 
     .footer-top__box {
@@ -932,18 +908,11 @@ footer {
 
     .big-footer__text {
         font-size: calc(7rem + 1vw);
-        line-height: 10rem;
-        letter-spacing: 0.20rem;
-        padding: 0;
-        margin: 0;
     }
 
     .small-footer__text {
         font-size: calc(3rem + 0.25vw);
-        letter-spacing: 0.15rem;
-        line-height: 5rem;
-        padding: 0 0 0 0.5rem;
-        margin: 0;
+
     }
 }
 
