@@ -55,7 +55,6 @@ footer {
     background-position: top center;
     background-size: cover;
     min-height: 100vh;
-    padding-top: 5vh;
     z-index: 0;
 }
 
@@ -64,7 +63,6 @@ footer {
     .header__box {
         background-image: url(../img/football_1280.jpg);
         min-height: 100vh;
-        padding-top: 5rem;
 
     }
 
@@ -75,7 +73,6 @@ footer {
     .header__box {
         background-image: url(../img/football_1920.jpg);
         min-height: 96rem;
-        padding-top: 5rem;
     }
 
 }
@@ -90,6 +87,11 @@ footer {
     left: 0;
     opacity: 0.9;
     z-index: 1
+}
+
+.header-svg__box {
+    position: relative;
+    padding-top: 5rem;
 }
 
 .header-svg__box .svg-logo-text {
@@ -755,7 +757,6 @@ footer {
     background-size: cover;
     height: 100vh;
     margin: 0;
-    padding-top: 10vh;
     z-index: 0;
 }
 
@@ -769,6 +770,10 @@ footer {
     left: 0;
     opacity: 0.9;
     z-index: 1;
+}
+
+.footer-top__box {
+    padding-top: 5rem;
 }
 
 .footer-sml-svg__box {
@@ -827,17 +832,22 @@ footer {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 12vh auto;
+    margin: 12vh auto 0;
+    height: 40vh;
     z-index: 2;
 }
 
-.footer-svg__box .svg-logo-text {
+.footer-svg__box {
     position: relative;
+}
+
+.footer-svg__box .svg-logo-text {
+    position: absolute;
     display: block;
     fill: #ffffff;
     width: 12rem;
-    margin-left: auto;
-    margin-right: auto;
+    left: calc(50% - 6rem);
+    bottom: 1vh;
     z-index: 2;
 }
 
@@ -845,11 +855,7 @@ footer {
 @media (min-width: 641px) and (max-width: 960px) {
     .footer__box {
         background-image: url("../img/game_1280.jpg");
-        height: 100vh;
-    }
-
-    .footer-top__box {
-        padding-top: 10vh;
+        min-height: 100vh;
     }
 
     .svg-sml-logo {
@@ -868,14 +874,21 @@ footer {
     }
 
     .footer-button__box {
-        margin: 15vh auto 5vh;
+
+        flex-direction: row;
+        justify-content: center;
+        height: auto;
+        margin-top: 25vh;
+        margin-bottom: 10vh;
+        padding: 0;
+
     }
 }
 
 @media (min-width: 961px) {
     .footer__box {
         background-image: url("../img/game_1920.jpg");
-        height: 96rem;
+        min-height: 96rem;
     }
 
     .footer-top__box {
@@ -885,7 +898,6 @@ footer {
     }
 
     .footer-content__box {
-        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -914,22 +926,23 @@ footer {
         font-size: calc(3rem + 0.25vw);
 
     }
+
+    .footer-button__box {
+        flex-direction: row;
+        justify-content: center;
+        height: auto;
+        margin-top: 25vh;
+        padding: 0;
+
+    }
 }
 
 @media (min-width: 641px) {
     .header-button__box {
         flex-direction: row;
         justify-content: center;
-        margin-top: 28rem;
+        margin-top: 30vhrem;
         padding-bottom: 4rem;
-    }
-
-    .footer-button__box {
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 30rem;
-        margin-bottom: 10rem;
-        padding: 0 3rem;
     }
 
     .button-download__box {
@@ -956,11 +969,17 @@ footer {
     .bottom-link__text {
         font-size: 1.4rem;
     }
-}
 
-@media (min-width: 641px) {
+
+    .footer-svg__box {
+        position: relative;
+    }
+
     .footer-svg__box .svg-logo-text {
         width: 20rem;
+        left: calc(50% - 10rem);
+        bottom: auto;
+        ;
 
     }
 
